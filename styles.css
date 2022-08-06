@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center ;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+  position: sticky;
+  padding :0 10%;
+  background: #E4F9F5;
+}
+
+
+.items,.image{
+  display: inline-block;
+}
+
+.top-image{
+  position: relative;
+  right: 20%;
+  padding: 16px 0;
+  max-width: 20%;
+  max-height:20%;
+}
+
+.navbar-items{
+  float: right;
+  list-style-type: none;
+  margin:50px 0;
+}
+
+.navbar-items>li{
+  display: inline-block;
+  font-size: 1.25em;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  margin: 0 5px;
+}
+
+li>a,li>a:link{
+  color: #11999E;
+}
+
+li>a:hover,li>a:focus,li>a:active{
+  color:#40514E;
+}
+
+
+
+
+.top-container{
+  position: relative;
+  padding:2em; 
+  text-align: center;
+  background: #E4F6F6;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: -10px;
+}
+
+.text-content{
+  line-height: 2;
+  margin-top: 2rem;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 200px;
+  top:350px;
+}
+
+.mountain{
+  position: relative;
+  top:30px;
+}
+
+.text-content>h1{
+  font-size: 5em;
+  color: #11999E;
+  font-style: italic;
+  font-family: 'Caveat', cursive,sans-serif;
+  font-weight: lighter;
+}
+
+.text-content>h3{
+  font-size: 1.5em;
+  color: #11999E;
+  font-weight: lighter;
+  font-family: 'Permanent Marker', cursive,monospace;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.skill-row>h3,.contact-me>h3{
+  color: #11999E;
+}
+
+.skill-row>p,.contact-me>p{
+  color: #40514E;
+}
+
+.profile{
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+
+.skills>h2,.profile>h2{
+  color: #66BFBF;
+  margin: 30px 0;
+}
+
+.profile>img,.bachelors{
+  width: 25%;
+}
+
+.web{
+  width: 25%;
+  float: left;
+  padding-right: 20px;
+}
+.programming{
+  width: 25%;
+  float: right;
+  padding-left: 20px;
+}
+
+.contact-me{
+  margin: 100px 0;
+  line-height: 2;
+}
+
+.btn{
+  margin-top: 200px;
+  color: #E4F9F5;
+  background:#11999E;
+  padding: 10px;
+  border-radius: 5%;
+  font-size: 24px;
+}
+
+.bottom-container{
+  background-color: #94eeee;
+  margin-top: 100px;
+  padding: 30px 0;
+  line-height: 2;
+}
+
+.footer-link{
+  color:#11999E;
+  margin: 30px;
+}
+
+
+.bottom-container>p{
+  color: #E4F9F5;
+}
+
+hr{
+  margin: 100px auto;
+  border: dotted #40514E 5px;
+  width: 6%;
+  border-bottom: none;
+}
+
+
+
+
+
+
+
+
+.bottom-cloud-education{
+  position: absolute;
+  left: 150px;
+  top:200px;
+}
+
+
+
+
+
+.achievements{
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.achievements>h1{
+  color: #66BFBF;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+
+ol>li{
+  list-style-type: upper-roman;
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.certificates{
+  margin: 100px auto;
+  line-height: 2;
+  background-color: #E4F9F5;
+}
+
+.certificates>h1{
+  color: #11999E;
+}
+
+.this_project{
+  max-width: 50%;
+}
+
+.blackjack{
+  max-width: 35%;
+  float: left;
+  padding-right: 20px;
+}
+
+.dustbin{
+  max-width: 35%;
+  position: relative;
+  top:30px;
+  float: right;
+  padding-left: 20px;
+}
